@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css"/>
+	<style>
+		#header_nav>div>ul>li:last-child>a{
+			color:#FFF;
+		}
+	</style>
+</head>
+<body>
+<div id="header"></div>
+<div id="contact_page">
+	<div>
+		<div>
+			<h3>Get In Touch</h3>
+			<form action="#">
+				<input type="text" id="fname" placeholder="Your firstname" class="c_type1 lf"/>
+				<input type="text" id="lname" placeholder="Tour lastname" class="c_type1 rt"/>
+				<input type="text" id="email" placeholder="Your email address" class="c_type2"/>
+				<input type="text" id="subject" placeholder="Your subject of this message" class="c_type2"/>
+				<textarea placeholder="Say something about us" name="message" id="message" cols="30" rows="10" class="c_type3"></textarea>
+			</form>
+			<a href="#" class="btn">Send Message</a>
+		</div>
+		<div>
+			<h3>Contact Information</h3>
+			<ul>
+				<li>
+					<i class="icon-address"></i>
+					198 West 21th Street,<br/>
+					Suite 721 New York NY 10016
+				</li>
+				<li>
+					<i class="icon-phone"></i>
+					<a href="">+ 1235 2355 98</a>
+				</li>
+				<li>
+					<i class="icon-email"></i>
+					<a href="">info@yoursite.com</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer"></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/all.js"></script>
+<script>
+	$('#header').load('data/header.php');
+	$('#footer').load('data/footer.php');
+</script>
+</body>
+</html>
